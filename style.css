@@ -1,0 +1,59 @@
+/* This is the start top navigation css section */
+header {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    display: inline-flex;
+}
+.nav-link {
+    border-right: 1px solid #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+.nav-link:last-child {
+    border: none;
+}
+.navbar {
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+}
+/* This is the end of top navigation css section */
+main {
+    max-width: 916px;
+    margin:50px auto 50px auto;
+}
+h4.card-title {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+div.card-img-overlay {
+    padding: 0;
+    top: 85%;
+}
+div.container {
+    max-width: 500px;
+    max-height: 500px;
+}
+html{
+    background-image: url(images/beige_paper.png);
+}
+/* Media Queries*/
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    div.container {
+
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    div.container {
+        
+    }
+}
