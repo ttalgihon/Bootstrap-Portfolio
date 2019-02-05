@@ -28,7 +28,7 @@ h1 {
 /* This start of body section */
 body {
     position: relative; /* body is relative position to make a sticky footer*/
-    padding-bottom: 20px;
+    padding-bottom: 26%;
 }
 main {
     max-width: 916px;
@@ -62,27 +62,6 @@ div.container {
 
 /*index.html specific css*/
 img.img-fluid {
-    max-height: 240px;
+    max-height: 250px;
     padding-right: 10px;
-}
-
-/* Media Queries*/
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-    div.container {
-
-    }
-    img.img-fluid {
-
-    }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
-    div.container {
-        
-    }
-    img.img-fluid {
-
-    }
 }
